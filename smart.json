@@ -1,0 +1,8 @@
+{
+  "name": "Pretty JSON.stringify Shortcut",
+  "description": "A simple way to call JSON.stringify with pretty output",
+  "homepage": "https://github.com/dburles/meteor-stringify-pretty",
+  "author": "David Burles <dburles@gmail.com>",
+  "version": "0.0.1",
+  "git": "https://github.com/dburles/meteor-stringify-pretty.git"
+}
