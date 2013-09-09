@@ -3,7 +3,7 @@ Package.describe({
 });
 
 Package.on_use(function (api, where) {
-  where = where || ['client', 'server'];
-  
-  api.add_files(['pretty.js'], where);
+  api.add_files('pretty.js', ['server', 'client']);
+  if (api.export)
+    api.export('p');
 });
